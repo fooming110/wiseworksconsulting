@@ -258,7 +258,7 @@ h3 {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(11, 31, 51, 0.92) 0%, rgba(11, 31, 51, 0.72) 45%, rgba(11, 31, 51, 0.22) 100%),
-    url("../images/hero.png") center / cover no-repeat;
+    url("hero.png") center / cover no-repeat;
 }
 
 .hero-content {
