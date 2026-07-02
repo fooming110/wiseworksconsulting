@@ -2155,3 +2155,11 @@ body.is-menu-open .global-nav-inner,
     font-size: 13px !important;
   }
 }
+
+@media (max-width: 640px) {
+  .hero-bg {
+    background:
+      linear-gradient(90deg, rgba(16, 42, 67, 0.78) 0%, rgba(16, 42, 67, 0.58) 58%, rgba(16, 42, 67, 0.30) 100%),
+      url("../images/hero.png") 75% center / cover no-repeat;
+  }
+}
