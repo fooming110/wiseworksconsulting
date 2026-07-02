@@ -1187,7 +1187,7 @@ h3 {
 
 @media (max-width: 640px) {
   .hero {
-    min-height: calc(100svh - 62px + 12px);
+    min-height: calc(92svh - 62px + 12px);
   }
 }
 
@@ -2156,10 +2156,18 @@ body.is-menu-open .global-nav-inner,
   }
 }
 
+
+/* v87 mobile hero and favicon adjustments
+   Smartphone-only TOP hero tuning.
+*/
 @media (max-width: 640px) {
   .hero-bg {
     background:
       linear-gradient(90deg, rgba(16, 42, 67, 0.78) 0%, rgba(16, 42, 67, 0.58) 58%, rgba(16, 42, 67, 0.30) 100%),
       url("../images/hero.png") 75% center / cover no-repeat;
+  }
+
+  .hero {
+    min-height: calc(100svh - 62px + 12px);
   }
 }
