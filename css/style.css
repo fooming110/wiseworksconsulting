@@ -1187,7 +1187,7 @@ h3 {
 
 @media (max-width: 640px) {
   .hero {
-    min-height: calc(92svh - 62px + 12px);
+    min-height: calc(100svh - 62px + 12px);
   }
 }
 
